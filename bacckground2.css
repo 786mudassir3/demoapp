@@ -1,0 +1,32 @@
+.box {
+    width: 1000px;
+    height: 450px;
+    border: 10px solid lime;
+    margin: auto;
+    background-color: grey;
+    background-image: url("f2.png"), url("f2.png"), url("v9.png");
+    background-repeat: no-repeat;
+    background-size: 150px,150px,250px;
+    background-position: left, right, center;
+}
+
+.header {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 0px;
+    letter-spacing: 15px;
+    background-image: url("h1.jpg");
+    background-clip: text;
+    color: transparent;
+}
+
+.text {
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: aqua;
+}

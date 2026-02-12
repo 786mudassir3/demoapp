@@ -1,0 +1,135 @@
+body {
+    background-color: grey;
+}
+
+/* .box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: color;
+    animation-duration: 0.5s;
+    animation-iteration-count: 4;
+    animation-iteration-count: infinite;
+} */
+
+/* @keyframes color {
+    from {
+        background-color: red;
+    }
+    to {
+        background-color:blue;
+    }
+} */
+
+/* @keyframes color {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: green;
+    }
+    50% {
+        background-color: yellow;
+    }
+
+    75% {
+        background-color:goldenrod;
+    }
+    95% {
+        background-color: aqua;
+    }
+    100% {
+        background-color: red;
+    }
+} */
+
+/* .image {
+    width
+}
+
+.image:hover {
+    : 100px;
+    animation-name: ball;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+    position: relative;
+} */
+/* .image {
+    width: 100px;
+}
+
+.image:hover {
+    animation-name: ball;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+    position: relative;
+}
+
+@keyframes ball {
+    0% {
+        left: 0;
+        top:0;
+    }
+    25% {
+        left: 300px;
+        top: 0;
+    }
+    50% {
+        left: 300px;
+        top: 300px;
+    }
+    75% {
+        left: 0;
+        top: 300px;
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+} */
+
+.outer {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.inner {
+    width: 0px;
+    height: 100px;
+    background-color: red;
+    animation-name: abc;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    /* animation-delay: 1s; */
+
+}
+
+@keyframes abc {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
